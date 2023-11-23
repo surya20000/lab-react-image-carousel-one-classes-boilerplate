@@ -3,13 +3,17 @@ import Carousel from "./components/Carousel";
 import "./App.css";
 
 
-
 export default class App extends Component {
-  render() {
-    return (
+
+  constructor(){
+    super()
+  }
+
+  render(){
+    return(
       <div className="App">
         <Carousel />
       </div>
-    );
+    )
   }
 }
